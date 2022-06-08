@@ -1,0 +1,114 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 5;
+  display: grid;
+}
+
+.textarea{
+  background: rgb(255, 255, 255);
+  align-items: right;
+  color: #000000;
+  border: 1px solid black;
+  padding: 5px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 78vw;
+  display: inline-block;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.timeblocks{
+  text-align: left;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 100px;
+  border-top: 1px solid white;;
+
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+ul li {
+  border: thin solid lightskyblue;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+p {
+    text-align: center;
+  }
+
+  .ul-times {
+    border-radius: 5px;
+  }
+
+#eightAmEl,
+#nineAmEl,
+#tenAmEl,
+#elevenAmEl,
+#noon,
+#onePmEl,
+#twoPmEl,
+#threePmEl,
+#fourPmEl,
+#fivePmEl,
+#sixPmEl {
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
